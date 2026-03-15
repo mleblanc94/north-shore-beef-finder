@@ -8,11 +8,19 @@
 }
 
 .header {
-    background-color: #333;
+    background-color: black;
       color: white;
       padding: 1rem;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       margin: 0;
+      text-decoration: none;
+}
+
+a {
+    color: #9E3320;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
 }

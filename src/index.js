@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import About from './pages/About';
 import Leaderboards from './pages/Leaderboards';
+import Profile from './pages/Profile';
 
 const router = createBrowserRouter([
   {

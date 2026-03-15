@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+}
+
+.location-finder {
+    display: flex;
+    justify-content: center;
+}
+
+.findMyLocation {
+    border: 1px black solid;
+    height: 110px;
+    width: 400px;
+    margin: 10px;
+    font-size: 1.6em;
+}
+
+.enter-location {
+    height: 104px;
+    width: 400px;
+    margin: 10px;
+    font-size: 1.2em;
+}
