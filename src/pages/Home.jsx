@@ -1,8 +1,18 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
     return(
-        <div>Home page</div>
+        <div>
+            <h1>Beef Finder</h1>
+            <div className='location-finder'>
+                <button className='findMyLocation'>Use My Location</button>
+                <input className='enter-location' placeholder='Enter City/Town'></input>
+            </div>
+            <div className='map'>
+
+            </div>
+        </div>
     )
 }
 
