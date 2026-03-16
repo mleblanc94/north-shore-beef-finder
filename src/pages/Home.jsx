@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { shops } from '../data/shops';
+import ShopCard from '../components/ShopCard';
+import BeefMap from '../components/BeefMap';
 
 const Home = () => {
     return(
@@ -11,6 +13,10 @@ const Home = () => {
                 <input className='enter-location' placeholder='Enter City/Town'></input>
             </div>
             <div className='map'>
+                {<BeefMap shops={shops} />}
+                {shops.map(shop => (
+                    <ShopCard key={shop.id} shop={shop} />
+                ))}
 
             </div>
         </div>

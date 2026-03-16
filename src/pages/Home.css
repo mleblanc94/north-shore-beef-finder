@@ -21,3 +21,8 @@ h1 {
     margin: 10px;
     font-size: 1.2em;
 }
+
+.map {
+    width: 70%;
+    margin: 20px auto;
+}
