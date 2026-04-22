@@ -1,7 +1,7 @@
 export const shops = [
 {
     id: 1,
-    name: 'Bellas Roast Beef',
+    name: 'Bella\'s Roast Beef',
     town: "North Andover",
     address: "1211 Osgood St, North Andover, MA 01845",
     lat: 42.719627,
@@ -25,7 +25,7 @@ export const shops = [
 },
 {
     id: 3,
-    name: 'Brothers Roast Beef',
+    name: 'Brother\'s Roast Beef',
     town: "Malden",
     address: "986 Eastern Ave, Malden, MA 02148",
     lat: 42.430614,
@@ -55,6 +55,30 @@ export const shops = [
     lat: 42.844621,
     lng: -70.973119,
     rating: 3.6,
+    averagePrice: 11.99,
+    notes: "Classic North Shore style super beef.",
+    image: "some-image-url"
+},
+{
+    id: 6,
+    name: 'Pete\'s Roast Beef and Pizza',
+    town: "Woburn",
+    address: "100 A Winn St, Woburn, MA 01801",
+    lat: 42.483164,
+    lng: -71.156622,
+    rating: 9.8,
+    averagePrice: 11.99,
+    notes: "Classic North Shore style super beef.",
+    image: "some-image-url"
+},
+{
+    id: 7,
+    name: 'C & S Pizza of Pepperell',
+    town: "Pepperell",
+    address: "55 Main Street, Pepperell, MA 01463",
+    lat: 42.665997,
+    lng: -71.586655,
+    rating: 9.8,
     averagePrice: 11.99,
     notes: "Classic North Shore style super beef.",
     image: "some-image-url"
