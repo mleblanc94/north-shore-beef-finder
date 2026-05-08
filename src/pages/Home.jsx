@@ -4,6 +4,10 @@ import { shops } from '../data/shops';
 import ShopCard from '../components/ShopCard';
 import BeefMap from '../components/BeefMap';
 
+let findBeef = (location) => {
+    console.log('You are gonna find your beef');
+}
+
 const Home = () => {
     return(
         <div>
@@ -11,11 +15,12 @@ const Home = () => {
             <div className='location-finder'>
                 <button className='findMyLocation'>Use My Location</button>
                 <input className='enter-location' placeholder='Enter City/Town'></input>
+                <button className="find-beef-button" onClick={findBeef}>Find your beef</button>
             </div>
             <div className='map'>
                 {<BeefMap shops={shops} />}
                 {shops.map(shop => (
-                    <ShopCard key={shop.id} shop={shop} />
+                    <ShopCard className='shop-cards' key={shop.id} shop={shop} />
                 ))}
 
             </div>
