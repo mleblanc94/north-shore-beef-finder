@@ -9,15 +9,15 @@ h1 {
 
 .findMyLocation {
     border: 1px black solid;
-    height: 110px;
-    width: 400px;
+    height: 59px;
+    width: 300px;
     margin: 10px;
     font-size: 1.6em;
 }
 
 .enter-location {
-    height: 104px;
-    width: 400px;
+    height: 54px;
+    width: 300px;
     margin: 10px;
     font-size: 1.2em;
 }
@@ -25,4 +25,15 @@ h1 {
 .map {
     width: 70%;
     margin: 20px auto;
+}
+
+.find-beef-button {
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.shop-cards {
+    display: flex;
+    flex-wrap: wrap;
 }
